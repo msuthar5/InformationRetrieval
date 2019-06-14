@@ -1,0 +1,254 @@
+================================================================================
+
+OUTPUT FROM GENERATING INDEX:
+
+>>> from index import *
+>>> a = index("collection/")
+Index built in 4.546393156051636 seconds.
+
+================================================================================
+
+QUERIES AND OUTPUT
+*** we run the same query on every method of retrieval ***
+
+================================================================================
+
+Query 1: "yemeni yemen"
+
+results for top 5 results for the query: 'yemeni yemen':
+Retrieval Method: Exact Retrieval
+	(1): Text-99.txt --> cosine_similarity score: 0.9871026033446602
+	(2): Text-195.txt --> cosine_similarity score: 0.9849666115974495
+	(3): Text-10.txt --> cosine_similarity score: 0.981288393181163
+	(4): Text-121.txt --> cosine_similarity score: 0.9601342108268003
+	(5): Text-100.txt --> cosine_similarity score: 0.9601342108268003
+time to compute: 0.0009160041809082031
+
+results for top 5 results for the query: 'yemeni yemen':
+Retrieval Method: Index Elimination
+	(1): Text-10.txt --> cosine_similarity score: 1.0
+	(2): Text-121.txt --> cosine_similarity score: 1.0
+	(3): Text-99.txt --> cosine_similarity score: 1.0
+	(4): Text-195.txt --> cosine_similarity score: 1.0
+	(5): Text-100.txt --> cosine_similarity score: 1.0
+time to compute: 0.0006380081176757812
+
+results for top 5 results for the query: 'yemeni yemen':
+Retrieval Method: Champion List
+	(1): Text-99.txt --> cosine_similarity score: 0.9871026033446602
+	(2): Text-195.txt --> cosine_similarity score: 0.9849666115974495
+	(3): Text-100.txt --> cosine_similarity score: 0.9601342108268003
+	(4): Text-344.txt --> cosine_similarity score: 0.9508386673420933
+	(5): Text-267.txt --> cosine_similarity score: 0.6251226910044069
+time to compute: 0.0004730224609375
+
+results for top 5 results for the query: 'yemeni yemen':
+Retrieval Method: Cluster Pruning
+	(1): Text-99.txt --> cosine_similarity score: 0.9871026033446602
+	(2): Text-195.txt --> cosine_similarity score: 0.9849666115974495
+	(3): Text-10.txt --> cosine_similarity score: 0.981288393181163
+	(4): Text-121.txt --> cosine_similarity score: 0.9601342108268003
+	(5): Text-100.txt --> cosine_similarity score: 0.9601342108268003
+time to compute: 0.004972934722900391
+
+================================================================================
+
+Query 2: "assorted kenya africa"
+
+results for top 5 results for the query: 'assorted kenya africa':
+Retrieval Method: Exact Retrieval
+	(1): Text-408.txt --> cosine_similarity score: 0.8949542201660826
+	(2): Text-52.txt --> cosine_similarity score: 0.7610375295519182
+	(3): Text-398.txt --> cosine_similarity score: 0.7610375295519182
+	(4): Text-121.txt --> cosine_similarity score: 0.6487078530536788
+	(5): Text-258.txt --> cosine_similarity score: 0.6483218212155272
+time to compute: 0.0009260177612304688
+
+results for top 5 results for the query: 'assorted kenya africa':
+Retrieval Method: Index Elimination
+	(1): Text-408.txt --> cosine_similarity score: 0.9464421482359637
+	(2): Text-52.txt --> cosine_similarity score: 0.8048210490852161
+	(3): Text-398.txt --> cosine_similarity score: 0.8048210490852161
+	(4): Text-338.txt --> cosine_similarity score: 0.5935175472969372
+	(5): Text-107.txt --> cosine_similarity score: 0.5935175472969372
+time to compute: 0.0007228851318359375
+
+results for top 5 results for the query: 'assorted kenya africa':
+Retrieval Method: Champion List
+	(1): Text-408.txt --> cosine_similarity score: 0.8949542201660826
+	(2): Text-52.txt --> cosine_similarity score: 0.7610375295519182
+	(3): Text-258.txt --> cosine_similarity score: 0.6483218212155272
+	(4): Text-117.txt --> cosine_similarity score: 0.644958191147143
+	(5): Text-107.txt --> cosine_similarity score: 0.6443380182970208
+time to compute: 0.0006129741668701172
+
+results for top 5 results for the query: 'assorted kenya africa':
+Retrieval Method: Cluster Pruning
+	(1): Text-408.txt --> cosine_similarity score: 0.8949542201660826
+	(2): Text-52.txt --> cosine_similarity score: 0.7610375295519182
+	(3): Text-398.txt --> cosine_similarity score: 0.7610375295519182
+	(4): Text-121.txt --> cosine_similarity score: 0.6487078530536788
+	(5): Text-258.txt --> cosine_similarity score: 0.6483218212155272
+time to compute: 0.005810976028442383
+
+================================================================================
+
+Query 3: "spreading general"
+
+results for top 5 results for the query: 'spreading general':
+Retrieval Method: Exact Retrieval
+	(1): Text-156.txt --> cosine_similarity score: 0.9999999999999999
+	(2): Text-100.txt --> cosine_similarity score: 0.9954983465517827
+	(3): Text-159.txt --> cosine_similarity score: 0.9367127982827427
+	(4): Text-101.txt --> cosine_similarity score: 0.9367127982827427
+	(5): Text-186.txt --> cosine_similarity score: 0.9367127982827427
+time to compute: 0.0009829998016357422
+
+results for top 5 results for the query: 'spreading general':
+Retrieval Method: Index Elimination
+	(1): Text-159.txt --> cosine_similarity score: 1.0
+	(2): Text-101.txt --> cosine_similarity score: 1.0
+	(3): Text-186.txt --> cosine_similarity score: 1.0
+	(4): Text-9.txt --> cosine_similarity score: 1.0
+	(5): Text-28.txt --> cosine_similarity score: 1.0
+time to compute: 0.0006878376007080078
+
+results for top 5 results for the query: 'spreading general':
+Retrieval Method: Champion List
+	(1): Text-100.txt --> cosine_similarity score: 0.9954983465517827
+	(2): Text-186.txt --> cosine_similarity score: 0.9367127982827427
+	(3): Text-194.txt --> cosine_similarity score: 0.9367127982827427
+	(4): Text-395.txt --> cosine_similarity score: 0.35009874826013565
+	(5): Text-359.txt --> cosine_similarity score: 0.35009874826013565
+time to compute: 0.0006759166717529297
+
+results for top 5 results for the query: 'spreading general':
+Retrieval Method: Cluster Pruning
+	(1): Text-156.txt --> cosine_similarity score: 0.9999999999999999
+	(2): Text-100.txt --> cosine_similarity score: 0.9954983465517827
+	(3): Text-159.txt --> cosine_similarity score: 0.9367127982827427
+	(4): Text-101.txt --> cosine_similarity score: 0.9367127982827427
+	(5): Text-28.txt --> cosine_similarity score: 0.9367127982827427
+time to compute: 0.007052898406982422
+
+================================================================================
+
+Query 4: "army 1960 along"
+
+results for top 5 results for the query: 'army 1960 along':
+Retrieval Method: Exact Retrieval
+	(1): Text-1.txt --> cosine_similarity score: 0.9999999999999998
+	(2): Text-168.txt --> cosine_similarity score: 0.9938788329885409
+	(3): Text-290.txt --> cosine_similarity score: 0.9918078753720817
+	(4): Text-121.txt --> cosine_similarity score: 0.9618026900132629
+	(5): Text-321.txt --> cosine_similarity score: 0.9015632223941134
+time to compute: 0.0014410018920898438
+
+results for top 5 results for the query: 'army 1960 along':
+Retrieval Method: Index Elimination
+	(1): Text-121.txt --> cosine_similarity score: 1.0
+	(2): Text-1.txt --> cosine_similarity score: 1.0
+	(3): Text-168.txt --> cosine_similarity score: 1.0
+	(4): Text-321.txt --> cosine_similarity score: 1.0
+	(5): Text-71.txt --> cosine_similarity score: 1.0
+time to compute: 0.0010790824890136719
+
+results for top 5 results for the query: 'army 1960 along':
+Retrieval Method: Champion List
+	(1): Text-168.txt --> cosine_similarity score: 0.9938788329885409
+	(2): Text-290.txt --> cosine_similarity score: 0.9918078753720817
+	(3): Text-121.txt --> cosine_similarity score: 0.9618026900132629
+	(4): Text-48.txt --> cosine_similarity score: 0.8941826478916388
+	(5): Text-316.txt --> cosine_similarity score: 0.855504088614191
+time to compute: 0.0008461475372314453
+
+results for top 5 results for the query: 'army 1960 along':
+Retrieval Method: Cluster Pruning
+	(1): Text-1.txt --> cosine_similarity score: 0.9999999999999998
+	(2): Text-290.txt --> cosine_similarity score: 0.9918078753720817
+	(3): Text-321.txt --> cosine_similarity score: 0.9015632223941134
+	(4): Text-71.txt --> cosine_similarity score: 0.9015632223941134
+	(5): Text-48.txt --> cosine_similarity score: 0.8941826478916388
+time to compute: 0.010596036911010742
+
+================================================================================
+
+Query 5: "army military emerging europeans"
+
+results for top 5 results for the query: 'army military emerging europeans':
+Retrieval Method: Exact Retrieval
+	(1): Text-1.txt --> cosine_similarity score: 0.9629524569429635
+	(2): Text-69.txt --> cosine_similarity score: 0.83573464001932
+	(3): Text-346.txt --> cosine_similarity score: 0.805888955521563
+	(4): Text-308.txt --> cosine_similarity score: 0.8008898134802742
+	(5): Text-341.txt --> cosine_similarity score: 0.7630034625002536
+time to compute: 0.002068042755126953
+
+results for top 5 results for the query: 'army military emerging europeans':
+Retrieval Method: Index Elimination
+	(1): Text-1.txt --> cosine_similarity score: 1.0
+	(2): Text-308.txt --> cosine_similarity score: 0.821275640275123
+	(3): Text-69.txt --> cosine_similarity score: 0.821275640275123
+	(4): Text-341.txt --> cosine_similarity score: 0.821275640275123
+	(5): Text-110.txt --> cosine_similarity score: 0.821275640275123
+time to compute: 0.0008640289306640625
+
+results for top 5 results for the query: 'army military emerging europeans':
+Retrieval Method: Champion List
+	(1): Text-69.txt --> cosine_similarity score: 0.83573464001932
+	(2): Text-346.txt --> cosine_similarity score: 0.805888955521563
+	(3): Text-308.txt --> cosine_similarity score: 0.8008898134802742
+	(4): Text-341.txt --> cosine_similarity score: 0.7630034625002536
+	(5): Text-20.txt --> cosine_similarity score: 0.594706769047139
+time to compute: 0.0008680820465087891
+
+results for top 5 results for the query: 'army military emerging europeans':
+Retrieval Method: Cluster Pruning
+	(1): Text-69.txt --> cosine_similarity score: 0.83573464001932
+	(2): Text-391.txt --> cosine_similarity score: 0.3699623504218324
+	(3): Text-19.txt --> cosine_similarity score: 0.3699623504218324
+	(4): Text-290.txt --> cosine_similarity score: 0.3699623504218323
+	(5): Text-418.txt --> cosine_similarity score: 0.3699623504218323
+time to compute: 0.010210037231445312
+
+================================================================================
+
+Query 6: "said terrorist general"
+
+results for top 5 results for the query: 'said terrorist general':
+Retrieval Method: Exact Retrieval
+	(1): Text-350.txt --> cosine_similarity score: 1.0
+	(2): Text-339.txt --> cosine_similarity score: 0.9946012140740027
+	(3): Text-373.txt --> cosine_similarity score: 0.9303697270575393
+	(4): Text-408.txt --> cosine_similarity score: 0.9287414007001019
+	(5): Text-91.txt --> cosine_similarity score: 0.9271661393105818
+time to compute: 0.0023550987243652344
+
+results for top 5 results for the query: 'said terrorist general':
+Retrieval Method: Index Elimination
+	(1): Text-350.txt --> cosine_similarity score: 0.9999999999999999
+	(2): Text-339.txt --> cosine_similarity score: 0.995134066888324
+	(3): Text-373.txt --> cosine_similarity score: 0.9297460693803546
+	(4): Text-408.txt --> cosine_similarity score: 0.9297460693803546
+	(5): Text-196.txt --> cosine_similarity score: 0.9297460693803546
+time to compute: 0.00150299072265625
+
+results for top 5 results for the query: 'said terrorist general':
+Retrieval Method: Champion List
+	(1): Text-350.txt --> cosine_similarity score: 1.0
+	(2): Text-339.txt --> cosine_similarity score: 0.9946012140740027
+	(3): Text-373.txt --> cosine_similarity score: 0.9303697270575393
+	(4): Text-408.txt --> cosine_similarity score: 0.9287414007001019
+	(5): Text-91.txt --> cosine_similarity score: 0.9271661393105818
+time to compute: 0.0011208057403564453
+
+results for top 5 results for the query: 'said terrorist general':
+Retrieval Method: Cluster Pruning
+	(1): Text-350.txt --> cosine_similarity score: 1.0
+	(2): Text-339.txt --> cosine_similarity score: 0.9946012140740027
+	(3): Text-283.txt --> cosine_similarity score: 0.3949861357474905
+	(4): Text-77.txt --> cosine_similarity score: 0.3949861357474905
+	(5): Text-291.txt --> cosine_similarity score: 0.3949861357474905
+time to compute: 0.017421960830688477
+
+================================================================================
