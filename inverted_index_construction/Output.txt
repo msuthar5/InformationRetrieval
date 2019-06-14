@@ -1,0 +1,58 @@
+OUTPUT FROM GENERATING INDEX:
+
+>>> from index import *
+>>> a = index()
+Index built in 5.01622986794 seconds.
+
+OUTPUT FROM 6 QUERIES:
+
+>>> x=a.and_query(['yemeni', 'yemen'])
+
+Results for the Query:  yemeni AND yemen
+Total Docs retrieved: 6
+Text-10.txt
+Text-99.txt
+Text-100.txt
+Text-121.txt
+Text-195.txt
+Text-344.txt
+Retrieved in: 0.000163078308105 seconds
+
+>>> x=a.and_query(['approached', 'terrorist'])
+
+Results for the Query:  approached AND terrorist
+Total Docs retrieved: 1
+Text-408.txt
+Retrieved in: 7.48634338379e-05 seconds
+
+>>> x=a.and_query(['said', 'terrorist', 'general'])
+
+Results for the Query:  said AND terrorist AND general
+Total Docs retrieved: 2
+Text-339.txt
+Text-350.txt
+Retrieved in: 0.000570058822632 seconds
+
+>>> x=a.and_query(['assorted', 'appreciate', 'kenya'])
+
+Results for the Query:  assorted AND appreciate AND kenya
+Total Docs retrieved: 0
+Retrieved in: 9.20295715332e-05 seconds
+
+>>> x=a.and_query(['spreading', 'general'])
+
+Results for the Query:  spreading AND general
+Total Docs retrieved: 2
+Text-100.txt
+Text-156.txt
+Retrieved in: 0.000292062759399 seconds
+
+>>> x=a.and_query(['army', '1960', 'along'])
+
+Results for the Query:  army AND 1960 AND along
+Total Docs retrieved: 4
+Text-1.txt
+Text-121.txt
+Text-168.txt
+Text-290.txt
+Retrieved in: 0.000747919082642 seconds
