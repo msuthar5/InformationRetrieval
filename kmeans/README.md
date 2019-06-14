@@ -1,6 +1,6 @@
 How to run: python3 kmeans.py
 
-re-setting kvalue: enter the kvalue on line 327 of kmeans.py
+to reset kvalue: enter the kvalue on line 327 of kmeans.py
 
 How to run experimental study program: python3 experimental_study.py
 
@@ -9,53 +9,96 @@ How to run experimental study program: python3 experimental_study.py
 ----------------------------------------------------------------
 K = 5
 
+
 Manishs-MacBook-Pro:hw5 manishsuthar$ python3 kmeans.py
 
+
 TF-IDF Index built in  3.8964428901672363  seconds.
+
 Training Model...
 
+
 RSS Values
+
 cluster id: 0 RSS: 13399.433706936525 closest document id: 504
+
 cluster id: 1 RSS: 112302.57869886163 closest document id: 242
+
 cluster id: 2 RSS: 1294.904197682009 closest document id: 337
+
 cluster id: 3 RSS: 234133.46870464666 closest document id: 563
+
 cluster id: 4 RSS: 2070.2833418535047 closest document id: 240
 
+
 Clusters built in  1.1079521179199219  seconds.
+
 Total RSS: 363200.66864998033
 
+
 RSS Values
+
 cluster id: 0 RSS: 8598.907139316234 closest document id: 365
+
 cluster id: 1 RSS: 95832.35351604798 closest document id: 153
+
 cluster id: 2 RSS: 0.0 closest document id: 337
+
 cluster id: 3 RSS: 199892.60360879824 closest document id: 563
+
 cluster id: 4 RSS: 2070.283341853505 closest document id: 240
+
 
 Clusters built in  12.753292083740234  seconds.
+
 Total RSS: 363200.66864998033
+
 Change in RSS: 56806.52104396437
 
+
+
 RSS Values
+
 cluster id: 0 RSS: 7348.802370915326 closest document id: 365
+
 cluster id: 1 RSS: 94456.4398548921 closest document id: 052
+
 cluster id: 2 RSS: 0.0 closest document id: 337
+
 cluster id: 3 RSS: 201081.59630867362 closest document id: 563
+
 cluster id: 4 RSS: 2070.283341853505 closest document id: 240
+
 
 Clusters built in  12.64377498626709  seconds.
+
 Total RSS: 306394.14760601596
+
 Change in RSS: 1437.0257296814234
 
+
+
 RSS Values
+
 cluster id: 0 RSS: 7348.802370915326 closest document id: 365
+
 cluster id: 1 RSS: 86100.03729665287 closest document id: 148
+
 cluster id: 2 RSS: 0.0 closest document id: 337
+
 cluster id: 3 RSS: 209223.6981047969 closest document id: 563
+
 cluster id: 4 RSS: 2070.283341853505 closest document id: 240
 
+
+
 Clusters built in  12.824907064437866  seconds.
+
 Total RSS: 304957.12187633454
+
 Change in RSS: 214.3007621159195
+
+
 
 Clusters Converged
 Clusters Model Complete
