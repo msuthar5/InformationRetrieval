@@ -1,4 +1,4 @@
-How to run: python3 kmeans.py
+How to run: python3 kmeans.py\n
 re-setting kvalue: enter the kvalue on line 327 of kmeans.py
 
 How to run experimental study program: python3 experimental_study.py
