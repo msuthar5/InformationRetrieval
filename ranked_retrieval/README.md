@@ -61,10 +61,3 @@ o	Implementation Steps
 •	Run cosine similarity on the query vector and every leader vector
 	Select the top k documents in the closest leader’s cluster based on cosine similarity between the query vector
 
-PERFORMANCE IMPACTS
--	    I created my own cosine similarity function
-o	    I could have used one from a scientific library because these libraries optimize mathematical operations
--	    Selecting top K (after cosine similarity has been computed):
-o	    I run an O(n log(n)) sort and then select the top k of these
-o	    I could’ve used a balanced tree structure (AVL tree) to store all similarities for each document and then just do an in-order traversal until I get k documents
-
